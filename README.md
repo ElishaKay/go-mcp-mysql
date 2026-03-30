@@ -7,10 +7,6 @@ Zero burden, ready-to-use Model Context Protocol (MCP) server for interacting wi
 
 Please note that this is a work in progress and may not yet be ready for production use.
 
-## Hosted deployment
-
-A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/zhwt-go-mcp-mysql).
-
 ## Installation
 
 1. Get the latest [release](https://github.com/Zhwt/go-mcp-mysql/releases) and put it in your `$PATH` or somewhere you can easily access.
@@ -20,6 +16,10 @@ A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/zhwt-g
 ```sh
 go install -v github.com/Zhwt/go-mcp-mysql@latest
 ```
+
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/zhwt-go-mcp-mysql).
 
 ## Usage
 
@@ -78,6 +78,8 @@ Note: For those who put the binary outside of your `$PATH`, you need to replace 
 
 - Add a `--read-only` flag to enable read-only mode. In this mode, only tools beginning with `list`, `read_` and `desc_` are available. Make sure to refresh/restart the MCP server after adding this flag.
 - By default, CRUD queries will be first executed with a `EXPLAIN ?` statement to check whether the generated query plan matches the expected pattern. Add a `--with-explain-check` flag to disable this behavior.
+
+
 
 ## Tools
 
