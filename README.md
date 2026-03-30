@@ -79,8 +79,6 @@ Note: For those who put the binary outside of your `$PATH`, you need to replace 
 - Add a `--read-only` flag to enable read-only mode. In this mode, only tools beginning with `list`, `read_` and `desc_` are available. Make sure to refresh/restart the MCP server after adding this flag.
 - By default, CRUD queries will be first executed with a `EXPLAIN ?` statement to check whether the generated query plan matches the expected pattern. Add a `--with-explain-check` flag to disable this behavior.
 
-
-
 ## Tools
 
 ### Schema Tools
