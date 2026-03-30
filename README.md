@@ -7,6 +7,10 @@ Zero burden, ready-to-use Model Context Protocol (MCP) server for interacting wi
 
 Please note that this is a work in progress and may not yet be ready for production use.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/zhwt-go-mcp-mysql).
+
 ## Installation
 
 1. Get the latest [release](https://github.com/Zhwt/go-mcp-mysql/releases) and put it in your `$PATH` or somewhere you can easily access.
